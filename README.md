@@ -147,7 +147,7 @@ create a new file `dj_local_conf.json` with the following template:
 
 
 
-## ## Insert into Manual and Lookup tables with Graphical User Interface DataJoint Labbook
+## Insert into Manual and Lookup tables with Graphical User Interface DataJoint Labbook
 
 DataJoint Neuro also provides a Graphical User Interface [DataJoint Labbook](https://github.com/datajoint/datajoint-labbook) to support manual data insertions into DataJoint workflows.
 
