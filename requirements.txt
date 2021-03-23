@@ -1,4 +1,4 @@
-datajoint>=0.13.dev6
-elements-lab @ git+https://github.com/datajoint/elements-lab.git
-elements-animal @ git+https://github.com/shenshan/elements-animal.git
+datajoint>=0.13.dev7
+element-lab @ git+https://github.com/datajoint/element-lab.git
+element-animal @ git+https://github.com/shenshan/element-animal.git
 ipykernel

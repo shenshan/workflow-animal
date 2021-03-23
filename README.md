@@ -1,22 +1,22 @@
 # Workflow for lab management and animal management
 
 This workflow builds a workflow to save the information of lab management and animal management, using the following datajoint elements
-+ [elements-lab](https://github.com/datajoint/elements-lab)
-+ [elements-animal](https://github.com/datajoint/elements-animal)
++ [element-lab](https://github.com/datajoint/element-lab)
++ [element-animal](https://github.com/datajoint/element-animal)
 
 This repository provides demonstrations for:
 Set up a workflow using different elements (see [workflow_imaging/pipeline.py](workflow_imaging/pipeline.py))
 
 ## Workflow architecture
-The lab and animal management workflow presented here uses components from two DataJoint elements, elements-lab, and elements-animal assembled together to a functional workflow.
+The lab and animal management workflow presented here uses components from two DataJoint elements, element-lab, and element-animal assembled together to a functional workflow.
 
-### elements-lab
+### element-lab
 
 ![lab](images/lab_diagram.svg)
 
-### elements-animal
+### element-animal
 
-elements-animal contains two modules, `subject` and `genotyping`.
+element-animal contains two modules, `subject` and `genotyping`.
 
 `subject` contains basic information of subjects.
 ![subject](images/subject_diagram.svg)
@@ -157,7 +157,7 @@ Please refer to the [DataJoint Labbook page](https://github.com/datajoint/datajo
 
 ## Development mode installation
 
-This method allows you to modify the source code for `workflow-imaging`, `elements-imaging`, `elements-animal`, and `elements-lab`.
+This method allows you to modify the source code for `workflow-imaging`, `element-imaging`, `element-animal`, and `element-lab`.
 
 + Launch a new terminal and change directory to where you want to clone the repositories
     ```
@@ -165,13 +165,13 @@ This method allows you to modify the source code for `workflow-imaging`, `elemen
     ```
 + Clone the repositories
     ```
-    git clone https://github.com/datajoint/elements-lab
-    git clone https://github.com/datajoint/elements-animal
+    git clone https://github.com/datajoint/element-lab
+    git clone https://github.com/datajoint/element-animal
     git clone https://github.com/datajoint/workflow-animal
     ```
 + Install each package with the `-e` option
     ```
     pip install -e ./workflow-animal
-    pip install -e ./elements-lab
-    pip install -e ./elements-animal
+    pip install -e ./element-lab
+    pip install -e ./element-animal
     ```

@@ -9,8 +9,8 @@ long_description = """"
 # Workflow for lab management and animal management
 
 Build a workflow for lab management and animal metadata using DataJoint Elements
-+ [elements-lab](https://github.com/datajoint/elements-lab)
-+ [elements-animal](https://github.com/datajoint/elements-animal)
++ [element-lab](https://github.com/datajoint/element-lab)
++ [element-animal](https://github.com/datajoint/element-animal)
 """
 
 with open(path.join(here, 'requirements.txt')) as f:
